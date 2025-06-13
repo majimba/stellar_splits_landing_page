@@ -16,14 +16,23 @@
     "watch:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css --watch",
     "dev": "npm run watch:css"
   },
-  "keywords": ["stellar-splits", "music", "splits", "africa", "landing-page", "tailwindcss"],
+  "keywords": [
+    "stellar-splits",
+    "music",
+    "splits",
+    "africa",
+    "landing-page",
+    "tailwindcss"
+  ],
   "author": "Arc Synthesis",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.4.17",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/line-clamp": "^0.1.0",
-    "@tailwindcss/typography": "^0.5.16"
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^3.4.17"
   }
 }
