@@ -1,0 +1,38 @@
+<!-- Sticky Navigation Bar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-lg shadow-lg transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <a href="#" class="text-2xl font-bold text-primary hover:text-primary/80 transition-colors duration-200">
+                    Stellar<span class="text-text-primary">Splits</span>
+                </a>
+            </div>
+
+            <!-- Desktop Navigation Links -->
+            <div class="desktop-nav hidden md:flex items-center navbar-spacing">
+                <a href="#pricing" class="text-text-secondary hover:text-primary transition-colors duration-200 font-medium">Pricing</a>
+                <a href="#faq" class="text-text-secondary hover:text-primary transition-colors duration-200 font-medium">FAQ</a>
+                <a href="#waitlist-form" class="bg-primary hover:bg-primary/90 text-background font-semibold px-6 py-2 rounded-lg transition-all duration-200 shadow-lg hover-shadow-xl hover-scale-105">Join Waitlist</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="mobile-menu-button-container flex md:hidden">
+                <button id="mobile-menu-button" class="text-text-primary hover:text-primary transition-colors p-2 rounded-lg hover:bg-text-secondary/10" aria-label="Toggle mobile menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="mobile-menu-panel md:hidden hidden bg-background/95 backdrop-blur-lg border-t border-text-secondary/20 py-6">
+        <div class="flex flex-col space-y-6">
+            <a href="#pricing" class="text-text-secondary hover:text-primary transition-colors font-medium px-6 py-3 mobile-nav-link">Pricing</a>
+            <a href="#faq" class="text-text-secondary hover:text-primary transition-colors font-medium px-6 py-3 mobile-nav-link">FAQ</a>
+            <a href="#waitlist-form" class="bg-primary hover:bg-primary/90 text-background font-semibold mx-6 px-6 py-3 rounded-lg text-center transition-all duration-200 shadow-lg mobile-nav-link">Join Waitlist</a>
+        </div>
+    </div>
+</nav>
